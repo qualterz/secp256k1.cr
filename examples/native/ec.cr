@@ -1,4 +1,4 @@
-require "../shared"
+require "./shared"
 
 def create_ec_keys(context)
   secret_key = loop {

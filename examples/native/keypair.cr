@@ -1,4 +1,4 @@
-require "../shared"
+require "./shared"
 
 def create_keypair(context)
   keypair = LibSecp256k1::Secp256k1Keypair.new

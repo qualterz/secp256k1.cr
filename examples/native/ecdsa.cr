@@ -1,4 +1,4 @@
-require "../shared"
+require "./shared"
 
 def create_ecdsa_signature(context, message, secret_key)
   signature = LibSecp256k1::Secp256k1EcdsaSignature.new

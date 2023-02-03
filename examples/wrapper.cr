@@ -1,4 +1,4 @@
-require "./shared"
+require "../src/secp256k1"
 require "openssl"
 
 context = Secp256k1::Context.new Random.new(1337)

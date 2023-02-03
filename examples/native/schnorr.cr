@@ -1,4 +1,4 @@
-require "../shared"
+require "./shared"
 
 def create_schnorr_signature(context, message, keypair)
   signature = Bytes.new(64)

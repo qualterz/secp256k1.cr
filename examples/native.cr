@@ -1,5 +1,4 @@
 require "./native/*"
-
 require "openssl"
 
 context = create_context

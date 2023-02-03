@@ -1,4 +1,4 @@
-require "../shared"
+require "./shared"
 require "./ec"
 
 def create_ecdh_shared_secret(context, public_key, secret_key)
